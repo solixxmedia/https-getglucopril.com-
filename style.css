@@ -420,3 +420,16 @@ a.nav-cta,
 a.nav-cta:hover {
   color: #ffffff !important;
 }
+/* ===== Final CTA button text → RED (this button only) ===== */
+.final-cta .btn-primary,
+.final-cta .btn-primary span,
+.final-cta .btn-primary i {
+  color: #D32F2F !important;   /* strong red — swap for #FF0000 / #C62828 if you prefer */
+}
+
+/* optional: slightly darker red on hover */
+.final-cta .btn-primary:hover,
+.final-cta .btn-primary:hover span,
+.final-cta .btn-primary:hover i {
+  color: #B71C1C !important;
+}
